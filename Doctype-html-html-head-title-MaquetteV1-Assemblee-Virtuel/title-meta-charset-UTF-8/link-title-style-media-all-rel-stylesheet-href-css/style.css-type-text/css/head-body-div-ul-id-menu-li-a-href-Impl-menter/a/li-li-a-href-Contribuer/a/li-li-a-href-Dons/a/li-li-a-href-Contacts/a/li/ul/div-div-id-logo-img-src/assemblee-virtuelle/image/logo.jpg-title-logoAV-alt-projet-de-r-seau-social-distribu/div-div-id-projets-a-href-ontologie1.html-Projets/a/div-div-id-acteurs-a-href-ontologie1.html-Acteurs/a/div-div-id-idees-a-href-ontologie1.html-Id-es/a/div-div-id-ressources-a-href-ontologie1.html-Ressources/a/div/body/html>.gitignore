@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+<head>
+<title>MaquetteV1-Assemblee Virtuel</title>
+<meta charset="UTF-8" />
+<link title="style" media="all" rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+
+
+</head>
+
+<body>
+<div>
+	<ul id="menu">
+		<li><a href="">Implémenter</a></li>	
+		<li><a href="">Contribuer</a></li>
+		<li><a href="">Dons</a></li>
+		<li><a href="">Contacts</a></li>
+	</ul>
+</div>
+
+<div id="logo">
+	<img src="/assemblee-virtuelle/image/logo.jpg" title="logoAV" alt="projet de réseau social distribué">
+</div>
+
+
+
+<div id="projets"><a href="ontologie1.html">Projets</a></div>
+<div id="acteurs"><a href="ontologie1.html">Acteurs</a></div>
+<div id="idees"><a href="ontologie1.html">Idées</a></div>
+<div id="ressources"><a href="ontologie1.html">Ressources</a></div>
+
+
+</body>
+
+</html>
