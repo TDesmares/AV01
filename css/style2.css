@@ -10,7 +10,7 @@ rgb(124, 10, 233)/*deuxieme page*/
 			margin-bottom: 5px;
 			box-shadow: px -2px -5px 1px rgba(0, 0, 0, 0.7);
 		}
-		
+
 		.ssmenu{
 			background-color: #FFF9FF;
 			width: 200px;
@@ -40,8 +40,8 @@ rgb(124, 10, 233)/*deuxieme page*/
 		li.info
 			{
 				position:relative;
-				background-color:#ddd;
-				color:#000;
+				background-color:#818181;
+				color:#222222;
 				text-decoration:none
 				box-shadow: px -2px -5px 1px rgba(0, 0, 0, 0.7);
 				z-index: 5px;

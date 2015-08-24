@@ -6,9 +6,9 @@
 <link title="style" media="all" rel="stylesheet" href="css/style2.css" type="text/css" />
 
  <style type="text/css">
-  
+
 </style>
-  
+
 
 
 <script language="javascript">
@@ -21,12 +21,12 @@
 		  document.getElementById("ssmenu3").style.display = "none";
 		  document.getElementById("ssmenu4").style.display = "none"
 		}
-		
+
 		function gestion_ssmenu(i){
 		/* Appel à la gestion du sous-menu n°i : action selon l'état du bloc
 		---------------------------------------------------------------------*/
 		  etat = document.getElementById("ssmenu" + i).style.display == "block";
-		  
+
 		  if (etat){
 		    masquage_menu(i);
 		  }
@@ -34,13 +34,13 @@
 		    affichage_menu(i);
 		  }
 		}
-		
+
 		function affichage_menu(i){
 		/* Affichage du sous-menu n° i
 		------------------------------------------------------*/
 		  document.getElementById("ssmenu" + i).style.display = "block";
 		}
-		
+
 		function masquage_menu(i){
 		/* Masquage du sous-menu n° i
 		--------------------------------------------------------*/
@@ -48,8 +48,8 @@
 		}
 
 </script>
-  	
-	
+
+
 </head>
 
 <body onLoad="initialisation()">
@@ -58,57 +58,57 @@
 	<div id="outils">
 		<div id="moteurRecherche">
 			<form action="">
-				<input type="search">							
+				<input type="search">
 				<input type="submit" value="Rechercher">
-			
-			</form>		
-		 
+
+			</form>
+
 		</div>
-		
-		
+
+
 		<div id="menu">
 			<ul>
-				<li class="info"><img src="/assemblee-virtuelle/image/fleche.svg" alt="c'est quoi?" ><span>?????ne sais pas à quoi correspond la flèche?????</span></li>			
+				<li class="info"><img src="/assemblee-virtuelle/image/fleche.svg" alt="c'est quoi?" ><span>?????ne sais pas à quoi correspond la flèche?????</span></li>
 					<!-- ne sais pas à quoi correspond la flèche -->
 				<li class="info"><img src="/assemblee-virtuelle/image/info.svg" alt="zone explicative">
 					<span>L'assemblée virtuelle est un réseau social distribué</span></li><!-- equivaut à un tuto en mode pop-up -->
-				
-				<li class="info"><a href="map.html"><img src="/assemblee-virtuelle/image/map.svg" alt="maps"></a> 
+
+				<li class="info"><a href="map.html"><img src="/assemblee-virtuelle/image/map.svg" alt="maps"></a>
 				<span>Accédez à la cartographie sémantique</span></li>
 				<li class="info"><img src="/assemblee-virtuelle/image/filtres.svg" alt="filtres">
 					<span>
 						<form>
 							<fieldset>
 								<legend>Choisissez vos sources</legend>
-									<input type="button" value="AV friends" onclick=""/>				
-									<input type="button" value="DBpedia" onclick=""/>	
+									<input type="button" value="AV friends" onclick=""/>
+									<input type="button" value="DBpedia" onclick=""/>
 							</fieldset>
-							
+
 							<fieldset>
-								<legend>La région qui vous intéresse</legend>				
+								<legend>La région qui vous intéresse</legend>
 									<p>Code Postal<input type="text" name="cp" value="" /></p>
 									<p>Kilométrage<input type="text" name="km" value="" /></p>
 							</fieldset>
-							
+
 							<fieldset>
-								<legend>Affichez les résultats</legend>				
-									
-							
-							
+								<legend>Affichez les résultats</legend>
+
+
+
 							</fieldset>
-							
+
 							<input type="submit" value="soumettre">
-			
-						</form>				
+
+						</form>
 					</span>
 				</li>
 			</ul>
 
-			
-		
-		</div> 
-	</div>	
-</div>		
+
+
+		</div>
+	</div>
+</div>
 
 <div id="ontologie">
 	<div id="projet" class="menu1"><a href="#" onClick="gestion_ssmenu(1)"><h2>Projet<img src="/assemblee-virtuelle/image/roller.svg" alt="permet d ouvrir le menu"> </h2></a></div>
@@ -116,163 +116,163 @@
 			<ul>
 				<li><b>Prédicat1</b>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>				
-				
-				
-				</li>			
+					</ul>
+
+
+				</li>
 				<li><b>prédicat2</b>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>						
-				
+					</ul>
+
 				</li>
-				
+
 				<li><b>Prédicat3</b>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>		
-				
-				
-				
-				
-				
+					</ul>
+
+
+
+
+
 				</li>
-			</ul>		
-		
+			</ul>
+
 		</div>
-		
-		
+
+
 	<div id="acteur" class="menu1"><a href="#" onClick="gestion_ssmenu(2)"><h2>Acteur<img src="/assemblee-virtuelle/image/roller.svg" alt="permet d ouvrir le menu"></h2></a></div>
 		<div id="ssmenu2" class="ssmenu">
 			<ul>
 				<li><p>Prédicat1</p>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>				
-				
-				
-				</li>			
+					</ul>
+
+
+				</li>
 				<li><p>prédicat2</p>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>						
-				
+					</ul>
+
 				</li>
-				
+
 				<li><p>Prédicat3</p>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>		
-				
-				
-				
-				
-				
+					</ul>
+
+
+
+
+
 				</li>
 			</ul>
-		
-		
-		</div>	
-	
+
+
+		</div>
+
 	<div id="idee" class="menu1"> <a href="#" onClick="gestion_ssmenu(3)"><h2>Idée<img src="/assemblee-virtuelle/image/roller.svg" alt="permet d ouvrir le menu"></h2></a></div>
-		<div id="ssmenu3" class="ssmenu">	
+		<div id="ssmenu3" class="ssmenu">
 			<ul>
 				<li><p>Prédicat1</p>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>				
-				
-				
-				</li>			
+					</ul>
+
+
+				</li>
 				<li><p>prédicat2</p>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>						
-				
+					</ul>
+
 				</li>
-				
+
 				<li><p>Prédicat3</p>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>		
-				
-				
-				
-				
-				
+					</ul>
+
+
+
+
+
 				</li>
 			</ul>
 		</div>
-		
+
 	<div id="ressource" class="menu1"> <a href="#" onClick="gestion_ssmenu(4)"><h2>Ressource<img src="/assemblee-virtuelle/image/roller.svg" alt="permet d ouvrir le menu"></h2></a></div>
-		<div id="ssmenu4" class="ssmenu">	
+		<div id="ssmenu4" class="ssmenu">
 			<ul>
 				<li><p>Prédicat1</p>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>				
-				
-				
-				</li>			
+					</ul>
+
+
+				</li>
 				<li><p>prédicat2</p>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>						
-				
+					</ul>
+
 				</li>
-				
+
 				<li><p>Prédicat3</p>
 					<ul>
-						<li>objet 1</li>					
+						<li>objet 1</li>
 						<li>objet 2</li>
 						<li>objet 3</li>
 						<li>objet 4</li>
-					</ul>		
-				
-				
-				
-				
-				
+					</ul>
+
+
+
+
+
 				</li>
 			</ul>
 		</div>
-		
-		
-		
+
+
+
 </div>
 
 
@@ -285,26 +285,26 @@
 <div id="texteGeneral">
 
 	<h2>Résumé</h2>
-		<p>Lorette est Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux. 
-		Moi je plonge, mon coeur danse, mon corps se balance, j’ai envie de la … Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux. 
-		Moi je plonge, mon coeur danse, mon corps se balance, j’ai envie de la … Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux. 
+		<p>Lorette est Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux.
+		Moi je plonge, mon coeur danse, mon corps se balance, j’ai envie de la … Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux.
+		Moi je plonge, mon coeur danse, mon corps se balance, j’ai envie de la … Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux.
 		</p>
-		
+
 	<h2>Introduction</h2>
 		<p>
-		Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux. 
-		Moi je plonge, mon coeur danse, mon corps se balance, j’ai envie de la … Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux. 
+		Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux.
+		Moi je plonge, mon coeur danse, mon corps se balance, j’ai envie de la … Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux.
 		</p>
-		
+
 	<h2>Objectifs</h2>
 		<p>
-		Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux. 
-		Moi je plonge, mon coeur danse, mon corps se balance, j’ai envie de la … Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux. 
+		Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux.
+		Moi je plonge, mon coeur danse, mon corps se balance, j’ai envie de la … Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux.
 		</p>
-		
+
 	<h2>Concept</h2>
 		<p>
-		Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux. 
+		Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se retourne pour me sourire avec ses yeux malicieux.
 		Moi je plonge, mon coeur danse, mon corps se balance, j’ai envie de la … Lorette Hyper Sexy, quand elle court dans les champs, que sa jupe vole au vent et que son regard se</h1>
 		</p>
 
