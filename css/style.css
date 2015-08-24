@@ -8,7 +8,7 @@ color: black;
 }
 
 body {
-	background-image: url(/assemblee-virtuelle/image/img-fond.jpg);
+	background-image: url(../image/img-fond.jpg);
 	z-index:0;
 	font-family: trebuchet;
 }
@@ -23,7 +23,7 @@ body {
 	color: white;
 	font-family: trebuchet;
 	font-weight: bold;
-	
+
 }
 
 #menu li {
@@ -117,7 +117,7 @@ body {
 	color: black;
 	position: absolute;
 	text-align: center;
-	margin-left: 1000px;	
+	margin-left: 1000px;
 	margin-top: 550px;
 	top: auto;
 	font-size: 18pt;
@@ -188,15 +188,13 @@ body {
 	color: black;
 	position: absolute;
 	text-align: center;
-	margin-left: 1000px;	
+	margin-left: 1000px;
 	margin-top: 550px;
 	top: auto;
 	font-size: 18pt;
 	font-weight: bold;
 	line-height: 12em;
   	font: "Trebuchet MS",Arial,sans-serif ;
-	
+
 	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
 }
-
-

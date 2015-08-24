@@ -1,7 +1,7 @@
-/*deuxieme page*/
+rgb(124, 10, 233)/*deuxieme page*/
 /*menu déroulant*/
 .menu1{
-			background-color: #FFF0F5;
+			background-color: #df4a7b;
 			width: 200px;
 			height: 20px;
 			text-align: center;
@@ -19,16 +19,16 @@
 			text-align: center;
 			vertical-align: middle;
 		}
-		
+
 		#ssmenu1{
 			display: block;
 		}
-		
+
 		#ssmenu2{
 			display: block;
 		}
-		
-		
+
+
 		a {
 			text-decoration: none;
 		}
@@ -55,17 +55,17 @@
 			{
 			    display:block;
 			    position:absolute;
-			    top:2em; 
-			    left:2em; 
+			    top:2em;
+			    left:2em;
 			    width:300px;
 			    border:1px solid #0cf;
-			    background-color:#fff; 
+			    background-color:#fff;
 			    color:#555;
 			    padding: 1em;
-			    
+
 			}
-			
-		#menu li 
+
+		#menu li
 			{
 			  background: white ;
 			  color: #fff ;
@@ -96,7 +96,7 @@ legend {
 }
 
 fieldset{
-	
+
 
 
 }
@@ -104,7 +104,7 @@ fieldset{
 
 #header {
 	background-color: #eee;
-	height: 100px; 
+	height: 100px;
 }
 
 #titre {
@@ -168,6 +168,3 @@ fieldset{
 	box-shadow: px -2px -5px 1px rgba(0, 0, 0, 0.7);
 	z-index: 50;
 }
-
-
-
