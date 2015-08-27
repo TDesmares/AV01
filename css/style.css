@@ -41,7 +41,7 @@ main {
 }
 
 #menu li a {
-  display: block ;
+	flex-direction: row;
   background: grey ;
   color: #fff ;
   font: 1em "Trebuchet MS",Arial,sans-serif ;
@@ -72,6 +72,7 @@ main {
   	height:300px;
   	color: black;
 		position: absolute;
+		align-items: baseline;
 		text-align: center;
 		vertical-align: center;
 		padding: auto;
