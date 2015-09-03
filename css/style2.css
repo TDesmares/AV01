@@ -112,8 +112,7 @@ fieldset{
 	width :800px;
 	height: 100px;
 	position:relative;
-	float: left;
-	display: inline;
+	display: flex;
 	text-align: center;
 	font-size: 14pt;
 	line-height: 4em;
@@ -145,15 +144,20 @@ fieldset{
 }
 
 
+#projet {
+	z-index:auto;
 
+
+
+
+}
 
 #texteGeneral {
 	width: 900px;
 	background-color: #ggg;
 	padding: 1em;
-	display: inline-block;
-	z-index: 0;
-	float: left;
+	flex-wrap: wrap;
+	z-index: 1;
 	position: static;
 }
 
@@ -162,7 +166,7 @@ fieldset{
 	background-color: #9cb8d6;
   	right: 0;
 	z-index: 10;
-	float: right;
+	flex-direction:column-reverse;
 	position: static;
 	padding: 1em;
 	box-shadow: px -2px -5px 1px rgba(0, 0, 0, 0.7);
