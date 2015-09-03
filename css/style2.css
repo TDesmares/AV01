@@ -11,7 +11,7 @@
 			box-shadow: px -2px -5px 1px rgba(0, 0, 0, 0.7);
 		}
 
-		.ssmenu{
+.ssmenu{
 			background-color: #FFF9FF;
 			width: 200px;
 			position: relative;
@@ -21,11 +21,11 @@
 		}
 
 		#ssmenu1{
-			display: block;
+			flex-wrap: wrap;
 		}
 
 		#ssmenu2{
-			display: block;
+			flex-wrap: wrap;
 		}
 
 
