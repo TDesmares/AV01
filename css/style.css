@@ -1,3 +1,10 @@
+body {
+	display: flex;
+	flex-direction:column;
+	height:95vh;
+}
+
+
 
 a {
 
@@ -14,9 +21,35 @@ body {
 	font-family: trebuchet;
 }
 
-main {
-	flex
+header {
+	position: relative;
+	flex-grow: 0;
+	flex-shrink: 0;
+	height: 70px;
+	width:
 
+}
+
+
+
+main {
+	position: relative;
+	flex:0 auto;
+	left:10px;
+	flex-grow: 1;
+
+}
+
+nav {
+	display:table;
+	margin: 0 auto;
+}
+
+footer {
+	height: 50px;
+	flex-grow: 0;
+	flex-shrink: 0;
+	background-color: #eee;
 
 }
 
@@ -62,24 +95,24 @@ main {
 #logo {
 	z-index: 5;
 	position: absolute;
-	margin-top: 375px;
-	margin-left: 750px;
+	top: 375px;
+	left: 750px;
+
 }
 
 
 #projets {
 		background:#fff;
+		display: table-cell;
   	border-radius:50%;
   	width:300px;
   	height:300px;
   	color: black;
-		position: absolute;
 		align-items: baseline;
 		text-align: center;
 		vertical-align: center;
 		padding: auto;
-		margin-left: 500px;
-		margin-top: 200px;
+
 		top: auto;
 		font-size: 18pt;
 		line-height: 12em;
@@ -88,14 +121,12 @@ main {
 
 #acteurs {
 		background:#fff;
+		display: table-cell;
   	border-radius:50%;
   	width:300px;
   	height:300px;
 		color: black;
-		position: absolute;
 		text-align: center;
-		margin-left: 1000px;
-		margin-top: 200px;
   	top: auto;
   	font-size: 18pt;
   	line-height: 12em;
@@ -104,14 +135,12 @@ main {
 
 #idees {
 		background:#fff;
+		display: table-cell;
   	border-radius:50%;
   	width:300px;
   	height:300px;
 		color: black;
-		position: absolute;
 		text-align: center;
-		margin-left: 500px;
-		margin-top: 550px;
 		top: auto;
 		font-size: 18pt;
 		line-height: 12em;
@@ -120,11 +149,11 @@ main {
 
 #ressources {
   	background:#fff;
+		display: table-cell;
   	border-radius:50%;
   	width:300px;
   	height:300px;
 		color: black;
-		position: absolute;
 		text-align: center;
 		margin-left: 1000px;
 		margin-top: 550px;
@@ -140,7 +169,6 @@ main {
   	width:300px;
   	height:300px;
   	color: black;
-		position: absolute;
 		text-align: center;
 		padding: auto;
 		margin-left: 500px;
@@ -159,7 +187,6 @@ main {
   	width:300px;
   	height:300px;
 		color: black;
-		position: absolute;
 		text-align: center;
 		margin-left: 1000px;
 		margin-top: 200px;
@@ -176,8 +203,7 @@ main {
   	border-radius:50%;
   	width:300px;
   	height:300px;
-		color: black;git
-		position: absolute;
+		color: black;
 		text-align: center;
 		margin-left: 500px;
 		margin-top: 550px;
@@ -195,7 +221,6 @@ main {
   	width:300px;
   	height:300px;
 		color: black;
-		position: absolute;
 		text-align: center;
 		margin-left: 1000px;
 		margin-top: 550px;
