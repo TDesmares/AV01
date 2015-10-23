@@ -1,13 +1,22 @@
 /*deuxieme page*/
+body {
+	display: flex;
+	flex-direction:column;
+	height:95vh;
+}
+
+
 /*menu déroulant*/
 .menu1{
 			background-color: #58d2d2;
 			width: 200px;
 			height: 20px;
+			flex-grow: 0;
+			flex-shrink: 0;
+			flex-wrap: wrap-reverse;
 			text-align: center;
 			vertical-align: middle;
 			position: relative;
-			margin-bottom: 5px;
 			box-shadow: px -2px -5px 1px rgba(0, 0, 0, 0.7);
 		}
 
